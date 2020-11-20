@@ -4,7 +4,11 @@ A simple app to book plot.
 
 __TRY HERE:__  https://plot-booking.herokuapp.com/
 
+__CODE HERE:__ https://github.com/raju4789/plot-booking
+
+
 ## BUILT USING:
+
 React Hooks, Spring Boot, Authorisation using JWT and Spring Security, Spring Data JPA, H2(Inmemory SQL database), REST, HTML, CSS, Material-UI.
 
 ## Features
@@ -15,23 +19,19 @@ __2.__ Book/Unbook.
 
 __3.__ Color highlighting of plot booking status.
 
+## Deployment steps:
 
-## Few Screenshots
+**1.**   Run mvn clean install -DskipTests
 
-### Login
-![image.png](images/pb_5.png)<br><br>
+**2.**  Run mvn sprin-boo:run
 
-### SIGNUP
-![image.png](images/pb_6.png)<br><br>
+**3**  Paste http://localhost:8080 and rest follows.
 
-### Dashboard
-![image.png](images/pb_1.png)<br><br>
+## NOTE:
 
-![image.png](images/pb_2.png)<br><br>
+**1.**  Screentshots are available in **"images"** folder.
 
-![image.png](images/pb_3.png)<br><br>
-
-![image.png](images/pb_4.png)<br><br>
+**2.**  Additional info and screenshots available in README.md.
 
 
 

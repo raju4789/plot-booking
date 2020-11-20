@@ -76,7 +76,7 @@ const PlotMap = ({ plotInfo, bookPlot }) => {
         const userName = localStorage.getItem('userName');
 
         if (plot.status === 'booked' && plot.owner && plot.owner === userName) {
-            return 'booked by you'
+            return 'Your plot'
         } else {
             return plot.status;
         }
