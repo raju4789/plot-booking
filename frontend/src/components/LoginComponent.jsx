@@ -127,7 +127,7 @@ const LoginComponent = () => {
                 <Grid container justify="flex-end">
                     <Grid item>
                     <Link to="/signup">
-                        Already have an account? Sign in
+                        Don't have account? Sign in
                     </Link>
                 </Grid>
           </Grid>
